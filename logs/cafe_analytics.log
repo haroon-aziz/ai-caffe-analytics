@@ -1,0 +1,836 @@
+2026-07-23 17:34:47 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-23 17:34:48 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-23 17:34:48 | INFO     | cafeanalytics.database.manager | Alert [critical/overcrowd]: Cafe overcrowded
+2026-07-23 19:49:43 | INFO     | cafeanalytics.detection.detector | Local weights /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt not found; ultralytics will resolve/download 'yolo26n.pt'.
+2026-07-23 19:49:43 | INFO     | cafeanalytics.detection.detector | Loading YOLO model 'yolo26n.pt' on device=cpu ...
+2026-07-23 19:50:30 | INFO     | cafeanalytics.detection.detector | Cached weights to /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-23 19:50:30 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-23 19:50:30 | INFO     | cafeanalytics.detection.detector | Warmup complete in 0.643s (device=cpu).
+2026-07-23 19:51:26 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-23 19:51:26 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-23 19:51:26 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-23 19:53:05 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-23 19:53:05 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-23 19:53:06 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-23 19:53:06 | INFO     | cafeanalytics.detection.detector | Warmup complete in 0.446s (device=cpu).
+2026-07-23 20:02:00 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-23 20:02:04 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-23 20:02:04 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-23 20:02:04 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-23 20:02:04 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 00:18:53 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=<__main__.FakeSource object at 0x775466acd070>).
+2026-07-24 00:18:53 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (15 frames read).
+2026-07-24 00:18:53 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=<__main__.FakeSource object at 0x7754675e8da0>).
+2026-07-24 00:18:53 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (643 frames read).
+2026-07-24 00:18:59 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 00:18:59 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 00:19:00 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 00:19:00 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 00:19:00 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 00:21:01 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=<__main__.FakeSource object at 0x7683e58d0fb0>).
+2026-07-24 00:21:01 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (15 frames read).
+2026-07-24 00:21:01 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=<__main__.FakeSource object at 0x7683e35c29c0>).
+2026-07-24 00:21:01 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (316 frames read).
+2026-07-24 00:21:11 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 00:21:11 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 00:21:11 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 00:21:11 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 00:21:11 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 00:21:12 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=<__main__.FakeSource object at 0x76838b756d20>).
+2026-07-24 00:21:13 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (8 frames read).
+2026-07-24 00:22:11 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 00:22:11 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 00:22:11 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 00:22:12 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 00:22:12 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 00:34:57 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase6_test.db)
+2026-07-24 00:34:57 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 00:34:58 | INFO     | cafeanalytics.analytics.customer | Finalised 1 open customer visit(s).
+2026-07-24 00:34:58 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase6_test.db)
+2026-07-24 00:34:58 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 01:26:30 | INFO     | cafeanalytics.analytics.queue | Queue alert [warning] Queue 'Cashier' has 3 people (threshold 2).
+2026-07-24 01:26:30 | INFO     | cafeanalytics.analytics.queue | Queue alert [critical] A customer has waited 7s in 'Cashier' (threshold 6s).
+2026-07-24 01:26:30 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase9_test.db)
+2026-07-24 01:26:31 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 01:26:31 | INFO     | cafeanalytics.database.manager | Alert [warning/long_queue]: Queue 'Cashier' has 3 people (threshold 2).
+2026-07-24 01:26:31 | INFO     | cafeanalytics.analytics.queue | Queue alert [warning] Queue 'Cashier' has 3 people (threshold 2).
+2026-07-24 01:28:36 | INFO     | cafeanalytics.analytics.queue | Queue alert [warning] Queue 'Cashier' has 3 people (threshold 2).
+2026-07-24 01:28:36 | INFO     | cafeanalytics.analytics.queue | Queue alert [critical] A customer has waited 7s in 'Cashier' (threshold 6s).
+2026-07-24 01:28:36 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase9_test.db)
+2026-07-24 01:28:36 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 01:28:36 | INFO     | cafeanalytics.database.manager | Alert [warning/long_queue]: Queue 'Cashier' has 3 people (threshold 2).
+2026-07-24 01:28:37 | INFO     | cafeanalytics.analytics.queue | Queue alert [warning] Queue 'Cashier' has 3 people (threshold 2).
+2026-07-24 07:14:24 | INFO     | cafeanalytics.analytics.heatmap | Saved heatmap to /home/vision/Desktop/CafeAnalytics/outputs/heatmaps/phase10_synthetic.jpg
+2026-07-24 07:14:34 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 07:14:34 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 07:14:35 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 07:14:37 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 07:14:37 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 07:17:57 | INFO     | cafeanalytics.analytics.heatmap | Saved heatmap to /home/vision/Desktop/CafeAnalytics/outputs/heatmaps/phase10_synthetic.jpg
+2026-07-24 07:18:04 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 07:18:04 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 07:18:04 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 07:18:05 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 07:18:05 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 07:25:46 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase11_test.db)
+2026-07-24 07:25:46 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 07:25:51 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 07:25:51 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 07:25:51 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 07:25:52 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 07:25:52 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 07:25:52 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 07:25:52 | INFO     | cafeanalytics.analytics.table | Loaded 0 table(s).
+2026-07-24 07:25:52 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 07:25:54 | INFO     | cafeanalytics.analytics.customer | Finalised 4 open customer visit(s).
+2026-07-24 07:25:54 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=s1).
+2026-07-24 07:43:53 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 07:43:53 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 07:48:32 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 07:48:32 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 08:07:03 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 08:07:03 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 08:07:27 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 08:07:27 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 08:07:27 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 08:07:28 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 08:07:28 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 08:07:29 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 08:07:29 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 08:07:30 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 08:07:30 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 08:07:30 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 08:07:30 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 08:07:30 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 08:07:30 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 08:07:30 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 08:07:30 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 08:07:30 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 08:07:30 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 08:07:30 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_080719).
+2026-07-24 08:07:30 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 08:07:30 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_080728).
+2026-07-24 08:07:30 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 08:07:30 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 08:07:30 | ERROR    | cafeanalytics.engine.runner | LiveRunner worker crashed.
+Traceback (most recent call last):
+  File "/home/vision/Desktop/CafeAnalytics/engine/runner.py", line 208, in _run
+    with source as src:
+  File "/home/vision/Desktop/CafeAnalytics/utils/video.py", line 118, in __enter__
+    return self.open()
+           ^^^^^^^^^^^
+  File "/home/vision/Desktop/CafeAnalytics/utils/video.py", line 90, in open
+    raise IOError(f"Unable to open video source: {self.source!r}")
+OSError: Unable to open video source: 0
+2026-07-24 08:07:30 | INFO     | cafeanalytics.utils.video | Opened video source 0 (640x480 @ 30.0 fps, frames=-1)
+2026-07-24 08:07:30 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 08:07:30 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 08:07:31 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 08:07:31 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 08:07:31 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 08:07:31 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 08:07:31 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 08:07:31 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 08:07:31 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_080729).
+2026-07-24 08:07:31 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 08:07:31 | ERROR    | cafeanalytics.engine.runner | LiveRunner worker crashed.
+Traceback (most recent call last):
+  File "/home/vision/Desktop/CafeAnalytics/engine/runner.py", line 208, in _run
+    with source as src:
+  File "/home/vision/Desktop/CafeAnalytics/utils/video.py", line 118, in __enter__
+    return self.open()
+           ^^^^^^^^^^^
+  File "/home/vision/Desktop/CafeAnalytics/utils/video.py", line 90, in open
+    raise IOError(f"Unable to open video source: {self.source!r}")
+OSError: Unable to open video source: 0
+2026-07-24 08:07:31 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 08:07:31 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 08:07:31 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 08:07:31 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 08:07:31 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 08:07:31 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 08:07:31 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_080730).
+2026-07-24 08:07:31 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 08:07:31 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-24 08:07:31 | ERROR    | cafeanalytics.engine.runner | LiveRunner worker crashed.
+Traceback (most recent call last):
+  File "/home/vision/Desktop/CafeAnalytics/engine/runner.py", line 208, in _run
+    with source as src:
+  File "/home/vision/Desktop/CafeAnalytics/utils/video.py", line 118, in __enter__
+    return self.open()
+           ^^^^^^^^^^^
+  File "/home/vision/Desktop/CafeAnalytics/utils/video.py", line 90, in open
+    raise IOError(f"Unable to open video source: {self.source!r}")
+OSError: Unable to open video source: 0
+2026-07-24 08:07:41 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (0 frames read).
+2026-07-24 08:07:41 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_080730).
+2026-07-24 08:07:41 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 08:07:41 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 08:07:42 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 08:07:42 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 08:07:42 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 08:07:42 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 08:07:42 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 08:07:42 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 08:07:42 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_080741).
+2026-07-24 08:07:42 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 08:07:42 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-24 08:07:42 | ERROR    | cafeanalytics.engine.runner | LiveRunner worker crashed.
+Traceback (most recent call last):
+  File "/home/vision/Desktop/CafeAnalytics/engine/runner.py", line 208, in _run
+    with source as src:
+  File "/home/vision/Desktop/CafeAnalytics/utils/video.py", line 118, in __enter__
+    return self.open()
+           ^^^^^^^^^^^
+  File "/home/vision/Desktop/CafeAnalytics/utils/video.py", line 90, in open
+    raise IOError(f"Unable to open video source: {self.source!r}")
+OSError: Unable to open video source: 0
+2026-07-24 08:07:43 | INFO     | cafeanalytics.database.manager | Alert [warning/no_staff]: No staff detected on the floor while customers are present.
+2026-07-24 08:07:43 | INFO     | cafeanalytics.pipeline.orchestrator | Global alert [warning] No staff detected on the floor while customers are present.
+2026-07-24 08:08:13 | INFO     | cafeanalytics.database.manager | Alert [warning/no_staff]: No staff detected on the floor while customers are present.
+2026-07-24 08:08:13 | INFO     | cafeanalytics.pipeline.orchestrator | Global alert [warning] No staff detected on the floor while customers are present.
+2026-07-24 08:08:44 | INFO     | cafeanalytics.database.manager | Alert [warning/no_staff]: No staff detected on the floor while customers are present.
+2026-07-24 08:08:45 | INFO     | cafeanalytics.pipeline.orchestrator | Global alert [warning] No staff detected on the floor while customers are present.
+2026-07-24 08:18:49 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase12_test.db)
+2026-07-24 08:18:49 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 08:18:50 | INFO     | cafeanalytics.database.manager | Alert [warning/long_queue]: Queue too long at Cashier
+2026-07-24 08:23:44 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase12_test.db)
+2026-07-24 08:23:44 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 08:23:44 | INFO     | cafeanalytics.database.manager | Alert [warning/long_queue]: Queue too long at Cashier
+2026-07-24 08:23:49 | INFO     | cafeanalytics.reports.generator | Generated pdf report: /tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/report_20260724_082347.pdf
+2026-07-24 08:23:49 | INFO     | cafeanalytics.reports.generator | Generated excel report: /tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/report_20260724_082349.xlsx
+2026-07-24 08:25:42 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/proof.db)
+2026-07-24 08:25:43 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 08:32:16 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase12_test.db)
+2026-07-24 08:32:16 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 08:32:16 | INFO     | cafeanalytics.database.manager | Alert [warning/long_queue]: Queue too long at Cashier
+2026-07-24 08:32:20 | INFO     | cafeanalytics.reports.generator | Generated pdf report: /tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/report_20260724_083218.pdf
+2026-07-24 08:32:20 | INFO     | cafeanalytics.reports.generator | Generated excel report: /tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/report_20260724_083220.xlsx
+2026-07-24 08:32:29 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 08:32:29 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 08:34:45 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 08:34:45 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 08:35:13 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 08:35:13 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 08:35:13 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 08:35:15 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 08:35:15 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 08:35:15 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 08:35:15 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 08:35:15 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 08:35:15 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 08:35:15 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 08:35:15 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_083502).
+2026-07-24 08:35:15 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source='/home/vision/Desktop/CafeAnalytics/videos/uploads/20260724_083502_WhatsApp Video 2026-07-24 at 08.16.21.mp4').
+2026-07-24 08:35:16 | INFO     | cafeanalytics.utils.video | Opened video source '/home/vision/Desktop/CafeAnalytics/videos/uploads/20260724_083502_WhatsApp Video 2026-07-24 at 08.16.21.mp4' (368x416 @ 12.0 fps, frames=73)
+2026-07-24 08:35:16 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 08:35:16 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 08:35:16 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 08:35:16 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 08:35:16 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 08:35:16 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 08:35:16 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_083515).
+2026-07-24 08:35:16 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source='/home/vision/Desktop/CafeAnalytics/videos/uploads/20260724_083515_WhatsApp Video 2026-07-24 at 08.16.21.mp4').
+2026-07-24 08:35:16 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: WhatsApp Video 2026-07-24 at 08.16.21.mp4
+2026-07-24 08:35:16 | INFO     | cafeanalytics.utils.video | Opened video source '/home/vision/Desktop/CafeAnalytics/videos/uploads/20260724_083515_WhatsApp Video 2026-07-24 at 08.16.21.mp4' (368x416 @ 12.0 fps, frames=73)
+2026-07-24 08:37:47 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (73 frames read).
+2026-07-24 08:37:47 | INFO     | cafeanalytics.analytics.customer | Finalised 4 open customer visit(s).
+2026-07-24 08:37:47 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_083515).
+2026-07-24 08:37:47 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 08:37:47 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 08:37:48 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 08:37:48 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.20, lost_buffer=30, min_consecutive=3).
+2026-07-24 08:37:48 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 08:37:48 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 08:37:48 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 08:37:48 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 08:37:48 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_083747).
+2026-07-24 08:37:48 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source='/home/vision/Desktop/CafeAnalytics/videos/uploads/20260724_083747_WhatsApp Video 2026-07-24 at 08.16.21.mp4').
+2026-07-24 08:37:48 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: WhatsApp Video 2026-07-24 at 08.16.21.mp4
+2026-07-24 08:37:48 | INFO     | cafeanalytics.utils.video | Opened video source '/home/vision/Desktop/CafeAnalytics/videos/uploads/20260724_083747_WhatsApp Video 2026-07-24 at 08.16.21.mp4' (368x416 @ 12.0 fps, frames=73)
+2026-07-24 08:48:20 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase13_test.db)
+2026-07-24 08:48:20 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 08:48:20 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase13_test.db)
+2026-07-24 08:48:21 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 08:48:21 | INFO     | cafeanalytics.database.manager | Alert [warning/overcrowd]: test
+2026-07-24 08:48:21 | WARNING  | cafeanalytics.database.manager | Cleared analytics data: {'visits': 1, 'track_events': 0, 'analytics_snapshots': 1, 'alerts': 1, 'daily_summaries': 0}
+2026-07-24 08:48:21 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase13_test.db)
+2026-07-24 08:48:22 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 08:48:25 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 08:48:25 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 08:50:24 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/zpv.db)
+2026-07-24 08:50:24 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:11:46 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 09:11:46 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:12:01 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 09:12:01 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 09:12:01 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 09:12:02 | INFO     | cafeanalytics.detection.detector | Warmup complete in 0.826s (device=cpu).
+2026-07-24 09:12:06 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 09:12:10 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 09:12:10 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 09:12:10 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 09:12:10 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 09:12:13 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=<__main__.FakeSource object at 0x78f0720d1190>).
+2026-07-24 09:12:13 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (15 frames read).
+2026-07-24 09:12:13 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=<__main__.FakeSource object at 0x78f06550c8f0>).
+2026-07-24 09:12:13 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (92 frames read).
+2026-07-24 09:12:17 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 09:12:17 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 09:12:17 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 09:12:17 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 09:12:17 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 09:12:19 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=<__main__.FakeSource object at 0x78f018096240>).
+2026-07-24 09:12:21 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (8 frames read).
+2026-07-24 09:12:23 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase6_test.db)
+2026-07-24 09:12:24 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:12:24 | INFO     | cafeanalytics.analytics.customer | Finalised 1 open customer visit(s).
+2026-07-24 09:12:24 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase6_test.db)
+2026-07-24 09:12:25 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:12:28 | INFO     | cafeanalytics.analytics.queue | Queue alert [warning] Queue 'Cashier' has 3 people (threshold 2).
+2026-07-24 09:12:28 | INFO     | cafeanalytics.analytics.queue | Queue alert [critical] A customer has waited 7s in 'Cashier' (threshold 6s).
+2026-07-24 09:12:28 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase9_test.db)
+2026-07-24 09:12:29 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:12:29 | INFO     | cafeanalytics.database.manager | Alert [warning/long_queue]: Queue 'Cashier' has 3 people (threshold 2).
+2026-07-24 09:12:29 | INFO     | cafeanalytics.analytics.queue | Queue alert [warning] Queue 'Cashier' has 3 people (threshold 2).
+2026-07-24 09:12:30 | INFO     | cafeanalytics.analytics.heatmap | Saved heatmap to /home/vision/Desktop/CafeAnalytics/outputs/heatmaps/phase10_synthetic.jpg
+2026-07-24 09:12:34 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 09:12:34 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 09:12:34 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 09:12:35 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 09:12:35 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 09:12:44 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 09:12:44 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:12:55 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase12_test.db)
+2026-07-24 09:12:56 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:12:56 | INFO     | cafeanalytics.database.manager | Alert [warning/long_queue]: Queue too long at Cashier
+2026-07-24 09:13:00 | INFO     | cafeanalytics.reports.generator | Generated pdf report: /tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/report_20260724_091259.pdf
+2026-07-24 09:13:00 | INFO     | cafeanalytics.reports.generator | Generated excel report: /tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/report_20260724_091300.xlsx
+2026-07-24 09:13:02 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase13_test.db)
+2026-07-24 09:13:03 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:13:03 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase13_test.db)
+2026-07-24 09:13:03 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:13:04 | INFO     | cafeanalytics.database.manager | Alert [warning/overcrowd]: test
+2026-07-24 09:13:04 | WARNING  | cafeanalytics.database.manager | Cleared analytics data: {'visits': 1, 'track_events': 0, 'analytics_snapshots': 1, 'alerts': 1, 'daily_summaries': 0}
+2026-07-24 09:13:04 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase13_test.db)
+2026-07-24 09:13:04 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:13:06 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 09:13:06 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:19:17 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase2_test.db)
+2026-07-24 09:19:18 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:19:18 | INFO     | cafeanalytics.database.manager | Alert [critical/overcrowd]: Cafe overcrowded
+2026-07-24 09:19:24 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 09:19:24 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 09:19:24 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 09:19:24 | INFO     | cafeanalytics.detection.detector | Warmup complete in 0.432s (device=cpu).
+2026-07-24 09:19:27 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 09:19:30 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 09:19:30 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 09:19:30 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 09:19:30 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 09:19:33 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=<__main__.FakeSource object at 0x7952936d14c0>).
+2026-07-24 09:19:33 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (15 frames read).
+2026-07-24 09:19:33 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=<__main__.FakeSource object at 0x79527d74dca0>).
+2026-07-24 09:19:33 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (191 frames read).
+2026-07-24 09:19:38 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 09:19:38 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 09:19:38 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 09:19:38 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 09:19:38 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 09:19:39 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=<__main__.FakeSource object at 0x7952395e3fe0>).
+2026-07-24 09:19:41 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (8 frames read).
+2026-07-24 09:19:43 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase6_test.db)
+2026-07-24 09:19:43 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:19:43 | INFO     | cafeanalytics.analytics.customer | Finalised 1 open customer visit(s).
+2026-07-24 09:19:43 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase6_test.db)
+2026-07-24 09:19:44 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:19:48 | INFO     | cafeanalytics.analytics.queue | Queue alert [warning] Queue 'Cashier' has 3 people (threshold 2).
+2026-07-24 09:19:48 | INFO     | cafeanalytics.analytics.queue | Queue alert [critical] A customer has waited 7s in 'Cashier' (threshold 6s).
+2026-07-24 09:19:48 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase9_test.db)
+2026-07-24 09:19:48 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:19:48 | INFO     | cafeanalytics.database.manager | Alert [warning/long_queue]: Queue 'Cashier' has 3 people (threshold 2).
+2026-07-24 09:19:48 | INFO     | cafeanalytics.analytics.queue | Queue alert [warning] Queue 'Cashier' has 3 people (threshold 2).
+2026-07-24 09:19:50 | INFO     | cafeanalytics.analytics.heatmap | Saved heatmap to /home/vision/Desktop/CafeAnalytics/outputs/heatmaps/phase10_synthetic.jpg
+2026-07-24 09:19:53 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 09:19:53 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 09:19:53 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 09:19:54 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 09:19:54 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 09:20:01 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 09:20:01 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:20:11 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase12_test.db)
+2026-07-24 09:20:12 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:20:12 | INFO     | cafeanalytics.database.manager | Alert [warning/long_queue]: Queue too long at Cashier
+2026-07-24 09:20:15 | INFO     | cafeanalytics.reports.generator | Generated pdf report: /tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/report_20260724_092014.pdf
+2026-07-24 09:20:15 | INFO     | cafeanalytics.reports.generator | Generated excel report: /tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/report_20260724_092015.xlsx
+2026-07-24 09:20:18 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase13_test.db)
+2026-07-24 09:20:19 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:20:19 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase13_test.db)
+2026-07-24 09:20:19 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:20:19 | INFO     | cafeanalytics.database.manager | Alert [warning/overcrowd]: test
+2026-07-24 09:20:20 | WARNING  | cafeanalytics.database.manager | Cleared analytics data: {'visits': 1, 'track_events': 0, 'analytics_snapshots': 1, 'alerts': 1, 'daily_summaries': 0}
+2026-07-24 09:20:20 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase13_test.db)
+2026-07-24 09:20:20 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:20:22 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 09:20:22 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:23:52 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/p14.db)
+2026-07-24 09:23:52 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:26:53 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 09:26:53 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 09:27:29 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 09:27:29 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 09:27:30 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 09:27:31 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.20, lost_buffer=30, min_consecutive=3).
+2026-07-24 09:27:31 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 09:27:31 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 09:27:31 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 09:27:31 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 09:27:31 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_092721).
+2026-07-24 09:27:31 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 09:27:31 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-24 09:27:32 | INFO     | cafeanalytics.utils.video | Opened video source 0 (640x480 @ 30.0 fps, frames=-1)
+2026-07-24 09:27:44 | INFO     | cafeanalytics.database.manager | Alert [warning/no_staff]: No staff detected on the floor while customers are present.
+2026-07-24 09:27:44 | INFO     | cafeanalytics.pipeline.orchestrator | Global alert [warning] No staff detected on the floor while customers are present.
+2026-07-24 09:27:56 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (78 frames read).
+2026-07-24 09:27:56 | INFO     | cafeanalytics.analytics.customer | Finalised 1 open customer visit(s).
+2026-07-24 09:27:56 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_092721).
+2026-07-24 09:40:29 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 09:40:29 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 13:56:59 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 13:56:59 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 14:01:36 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 14:01:36 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 14:06:58 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 14:06:58 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 14:06:58 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 14:06:58 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 14:06:58 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 14:06:58 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 14:06:58 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 14:06:58 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 14:06:59 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 14:06:59 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 14:06:59 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 14:06:59 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_140650).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_140650).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_140650).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_140650).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 14:07:03 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-24 14:07:03 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-24 14:07:03 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-24 14:07:03 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-24 14:07:03 | INFO     | cafeanalytics.utils.video | Opened video source 0 (640x480 @ 30.0 fps, frames=-1)
+2026-07-24 14:07:03 | INFO     | cafeanalytics.utils.video | Opened video source 0 (640x480 @ 30.0 fps, frames=-1)
+2026-07-24 14:07:03 | INFO     | cafeanalytics.utils.video | Opened video source 0 (640x480 @ 30.0 fps, frames=-1)
+2026-07-24 14:07:03 | INFO     | cafeanalytics.utils.video | Opened video source 0 (640x480 @ 30.0 fps, frames=-1)
+2026-07-24 14:07:08 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (11 frames read).
+2026-07-24 14:07:08 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (11 frames read).
+2026-07-24 14:07:08 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (11 frames read).
+2026-07-24 14:07:08 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (11 frames read).
+2026-07-24 14:07:08 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_140650).
+2026-07-24 14:07:08 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_140650).
+2026-07-24 14:07:08 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_140650).
+2026-07-24 14:07:08 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_140650).
+2026-07-24 14:09:17 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 14:09:17 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:15:28 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 23:15:28 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 23:15:28 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 23:15:28 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 23:15:29 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 23:15:29 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 23:15:30 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 23:15:30 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 23:15:30 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 23:15:30 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 23:15:30 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 23:15:30 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 23:15:30 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 23:15:30 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 23:15:30 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 23:15:30 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 23:15:30 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_231516).
+2026-07-24 23:15:30 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_231516).
+2026-07-24 23:15:30 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 23:15:30 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 23:15:30 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-24 23:15:30 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-24 23:15:30 | INFO     | cafeanalytics.utils.video | Opened video source 0 (640x480 @ 30.0 fps, frames=-1)
+2026-07-24 23:15:30 | INFO     | cafeanalytics.utils.video | Opened video source 0 (640x480 @ 30.0 fps, frames=-1)
+2026-07-24 23:15:33 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (8 frames read).
+2026-07-24 23:15:33 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (8 frames read).
+2026-07-24 23:15:33 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_231516).
+2026-07-24 23:15:33 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_231516).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_231516).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_231516).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_231516).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_231516).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_231516).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_231516).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 23:18:49 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 23:18:49 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 23:18:49 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 23:18:49 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 23:18:49 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 23:18:49 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 23:18:49 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 23:18:49 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 23:18:49 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 23:18:49 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 23:18:49 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 23:18:49 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_231849).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_231849).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_231849).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_231849).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_231849).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_231849).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 23:18:49 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-24 23:18:49 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-24 23:18:49 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-24 23:18:49 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-24 23:18:49 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-24 23:18:49 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-24 23:18:50 | INFO     | cafeanalytics.utils.video | Opened video source 0 (640x480 @ 30.0 fps, frames=-1)
+2026-07-24 23:18:50 | INFO     | cafeanalytics.utils.video | Opened video source 0 (640x480 @ 30.0 fps, frames=-1)
+2026-07-24 23:18:50 | INFO     | cafeanalytics.utils.video | Opened video source 0 (640x480 @ 30.0 fps, frames=-1)
+2026-07-24 23:18:50 | INFO     | cafeanalytics.utils.video | Opened video source 0 (640x480 @ 30.0 fps, frames=-1)
+2026-07-24 23:18:50 | INFO     | cafeanalytics.utils.video | Opened video source 0 (640x480 @ 30.0 fps, frames=-1)
+2026-07-24 23:18:50 | INFO     | cafeanalytics.utils.video | Opened video source 0 (640x480 @ 30.0 fps, frames=-1)
+2026-07-24 23:18:53 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (4 frames read).
+2026-07-24 23:18:53 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (4 frames read).
+2026-07-24 23:18:53 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (4 frames read).
+2026-07-24 23:18:53 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (4 frames read).
+2026-07-24 23:18:53 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (4 frames read).
+2026-07-24 23:18:53 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (4 frames read).
+2026-07-24 23:18:53 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_231849).
+2026-07-24 23:18:53 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_231849).
+2026-07-24 23:18:53 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_231849).
+2026-07-24 23:18:53 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_231849).
+2026-07-24 23:18:53 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_231849).
+2026-07-24 23:18:53 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_231849).
+2026-07-24 23:39:09 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase2_test.db)
+2026-07-24 23:39:09 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:39:10 | INFO     | cafeanalytics.database.manager | Alert [critical/overcrowd]: Cafe overcrowded
+2026-07-24 23:39:16 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 23:39:16 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 23:39:16 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 23:39:17 | INFO     | cafeanalytics.detection.detector | Warmup complete in 0.496s (device=cpu).
+2026-07-24 23:39:19 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 23:39:22 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 23:39:22 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 23:39:22 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 23:39:22 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 23:39:24 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=<__main__.FakeSource object at 0x7ae94fb603b0>).
+2026-07-24 23:39:24 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (15 frames read).
+2026-07-24 23:39:24 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=<__main__.FakeSource object at 0x7ae939b35790>).
+2026-07-24 23:39:24 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (610 frames read).
+2026-07-24 23:39:29 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 23:39:29 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 23:39:30 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 23:39:30 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 23:39:30 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 23:39:30 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=<__main__.FakeSource object at 0x7ae8f5c52f30>).
+2026-07-24 23:39:32 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (8 frames read).
+2026-07-24 23:39:34 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase6_test.db)
+2026-07-24 23:39:34 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:39:34 | INFO     | cafeanalytics.analytics.customer | Finalised 1 open customer visit(s).
+2026-07-24 23:39:34 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase6_test.db)
+2026-07-24 23:39:35 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:39:38 | INFO     | cafeanalytics.analytics.queue | Queue alert [warning] Queue 'Cashier' has 3 people (threshold 2).
+2026-07-24 23:39:38 | INFO     | cafeanalytics.analytics.queue | Queue alert [critical] A customer has waited 7s in 'Cashier' (threshold 6s).
+2026-07-24 23:39:38 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase9_test.db)
+2026-07-24 23:39:38 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:39:38 | INFO     | cafeanalytics.database.manager | Alert [warning/long_queue]: Queue 'Cashier' has 3 people (threshold 2).
+2026-07-24 23:39:38 | INFO     | cafeanalytics.analytics.queue | Queue alert [warning] Queue 'Cashier' has 3 people (threshold 2).
+2026-07-24 23:39:39 | INFO     | cafeanalytics.analytics.heatmap | Saved heatmap to /home/vision/Desktop/CafeAnalytics/outputs/heatmaps/phase10_synthetic.jpg
+2026-07-24 23:39:42 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 23:39:42 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 23:39:42 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 23:39:43 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 23:39:43 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 23:39:49 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 23:39:49 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:39:58 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase12_test.db)
+2026-07-24 23:39:59 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:39:59 | INFO     | cafeanalytics.database.manager | Alert [warning/long_queue]: Queue too long at Cashier
+2026-07-24 23:40:01 | INFO     | cafeanalytics.reports.generator | Generated pdf report: /tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/report_20260724_234000.pdf
+2026-07-24 23:40:01 | INFO     | cafeanalytics.reports.generator | Generated excel report: /tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/report_20260724_234001.xlsx
+2026-07-24 23:40:03 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase13_test.db)
+2026-07-24 23:40:04 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:40:04 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase13_test.db)
+2026-07-24 23:40:05 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:40:05 | INFO     | cafeanalytics.database.manager | Alert [warning/overcrowd]: test
+2026-07-24 23:40:05 | WARNING  | cafeanalytics.database.manager | Cleared analytics data: {'visits': 1, 'track_events': 0, 'analytics_snapshots': 1, 'alerts': 1, 'daily_summaries': 0}
+2026-07-24 23:40:05 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase13_test.db)
+2026-07-24 23:40:05 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:40:07 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 23:40:07 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:47:37 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase2_test.db)
+2026-07-24 23:47:38 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:47:38 | INFO     | cafeanalytics.database.manager | Alert [critical/overcrowd]: Cafe overcrowded
+2026-07-24 23:47:46 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 23:47:46 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 23:47:47 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 23:47:47 | INFO     | cafeanalytics.detection.detector | Warmup complete in 0.410s (device=cpu).
+2026-07-24 23:47:53 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 23:47:56 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 23:47:56 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 23:47:56 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 23:47:56 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 23:47:58 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=<__main__.FakeSource object at 0x74f3d07a43b0>).
+2026-07-24 23:47:58 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (15 frames read).
+2026-07-24 23:47:58 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=<__main__.FakeSource object at 0x74f3d07a7020>).
+2026-07-24 23:47:59 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (343 frames read).
+2026-07-24 23:48:04 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 23:48:04 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 23:48:04 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 23:48:04 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 23:48:04 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 23:48:05 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=<__main__.FakeSource object at 0x74f378e7bef0>).
+2026-07-24 23:48:06 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (8 frames read).
+2026-07-24 23:48:08 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase6_test.db)
+2026-07-24 23:48:08 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:48:08 | INFO     | cafeanalytics.analytics.customer | Finalised 1 open customer visit(s).
+2026-07-24 23:48:08 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase6_test.db)
+2026-07-24 23:48:09 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:48:12 | INFO     | cafeanalytics.analytics.queue | Queue alert [warning] Queue 'Cashier' has 3 people (threshold 2).
+2026-07-24 23:48:12 | INFO     | cafeanalytics.analytics.queue | Queue alert [critical] A customer has waited 7s in 'Cashier' (threshold 6s).
+2026-07-24 23:48:12 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase9_test.db)
+2026-07-24 23:48:12 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:48:12 | INFO     | cafeanalytics.database.manager | Alert [warning/long_queue]: Queue 'Cashier' has 3 people (threshold 2).
+2026-07-24 23:48:12 | INFO     | cafeanalytics.analytics.queue | Queue alert [warning] Queue 'Cashier' has 3 people (threshold 2).
+2026-07-24 23:48:13 | INFO     | cafeanalytics.analytics.heatmap | Saved heatmap to /home/vision/Desktop/CafeAnalytics/outputs/heatmaps/phase10_synthetic.jpg
+2026-07-24 23:48:15 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 23:48:15 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 23:48:16 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 23:48:16 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-24 23:48:16 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 23:48:22 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 23:48:22 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:48:30 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase12_test.db)
+2026-07-24 23:48:31 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:48:31 | INFO     | cafeanalytics.database.manager | Alert [warning/long_queue]: Queue too long at Cashier
+2026-07-24 23:48:33 | INFO     | cafeanalytics.reports.generator | Generated pdf report: /tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/report_20260724_234832.pdf
+2026-07-24 23:48:33 | INFO     | cafeanalytics.reports.generator | Generated excel report: /tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/report_20260724_234833.xlsx
+2026-07-24 23:48:35 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase13_test.db)
+2026-07-24 23:48:35 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:48:35 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase13_test.db)
+2026-07-24 23:48:36 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:48:36 | INFO     | cafeanalytics.database.manager | Alert [warning/overcrowd]: test
+2026-07-24 23:48:36 | WARNING  | cafeanalytics.database.manager | Cleared analytics data: {'visits': 1, 'track_events': 0, 'analytics_snapshots': 1, 'alerts': 1, 'daily_summaries': 0}
+2026-07-24 23:48:36 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////tmp/claude-1000/-home-vision-Desktop/983d0de6-dc32-4701-8cc5-aef66d19d7e2/scratchpad/phase13_test.db)
+2026-07-24 23:48:37 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:48:38 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 23:48:38 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:52:57 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-24 23:52:57 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-24 23:53:22 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-24 23:53:22 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-24 23:53:22 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-24 23:53:23 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.20, lost_buffer=30, min_consecutive=3).
+2026-07-24 23:53:23 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-24 23:53:23 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-24 23:53:23 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-24 23:53:23 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-24 23:53:23 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260724_235305).
+2026-07-24 23:53:23 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-24 23:53:23 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-24 23:53:23 | INFO     | cafeanalytics.utils.video | Opened video source 0 (640x480 @ 30.0 fps, frames=-1)
+2026-07-24 23:53:26 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (11 frames read).
+2026-07-24 23:53:26 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260724_235305).
+2026-07-25 00:03:53 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-25 00:03:53 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-25 00:24:01 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-25 00:24:01 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-25 00:28:18 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-25 00:28:18 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-25 00:28:28 | WARNING  | cafeanalytics.database.manager | Cleared analytics data: {'visits': 22, 'track_events': 27, 'analytics_snapshots': 62, 'alerts': 5, 'daily_summaries': 1}
+2026-07-25 00:28:28 | INFO     | cafeanalytics.dashboard.state | Owner reset: cleared {'visits': 22, 'track_events': 27, 'analytics_snapshots': 62, 'alerts': 5, 'daily_summaries': 1}
+2026-07-25 00:29:02 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-25 00:29:02 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-25 00:29:02 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-25 00:29:02 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-25 00:29:04 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-25 00:29:04 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-25 00:29:06 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.20, lost_buffer=30, min_consecutive=3).
+2026-07-25 00:29:06 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.20, lost_buffer=30, min_consecutive=3).
+2026-07-25 00:29:06 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-25 00:29:06 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-25 00:29:06 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-25 00:29:06 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-25 00:29:06 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-25 00:29:06 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-25 00:29:06 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-25 00:29:06 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-25 00:29:06 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260725_002900).
+2026-07-25 00:29:06 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260725_002853).
+2026-07-25 00:29:06 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-25 00:29:06 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-25 00:29:06 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-25 00:29:06 | ERROR    | cafeanalytics.engine.runner | LiveRunner worker crashed.
+Traceback (most recent call last):
+  File "/home/vision/Desktop/CafeAnalytics/engine/runner.py", line 147, in _run
+    with source as src:
+  File "/home/vision/Desktop/CafeAnalytics/utils/video.py", line 85, in __enter__
+    return self.open()
+           ^^^^^^^^^^^
+  File "/home/vision/Desktop/CafeAnalytics/utils/video.py", line 58, in open
+    raise IOError(f"Unable to open video source: {self.source!r}")
+OSError: Unable to open video source: 0
+2026-07-25 00:29:06 | INFO     | cafeanalytics.utils.video | Opened video source 0 (640x480 @ 30.0 fps, frames=-1)
+2026-07-25 00:29:29 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (0 frames read).
+2026-07-25 00:29:29 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260725_002900).
+2026-07-25 00:29:29 | WARNING  | cafeanalytics.database.manager | Cleared analytics data: {'visits': 0, 'track_events': 0, 'analytics_snapshots': 8, 'alerts': 0, 'daily_summaries': 0}
+2026-07-25 00:29:29 | INFO     | cafeanalytics.dashboard.state | Owner reset: cleared {'visits': 0, 'track_events': 0, 'analytics_snapshots': 8, 'alerts': 0, 'daily_summaries': 0}
+2026-07-25 00:29:43 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-25 00:29:43 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-25 00:29:43 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-25 00:29:43 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.20, lost_buffer=30, min_consecutive=3).
+2026-07-25 00:29:43 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-25 00:29:43 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-25 00:29:43 | INFO     | cafeanalytics.analytics.table | Loaded 2 table(s).
+2026-07-25 00:29:43 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-25 00:29:43 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260725_002943).
+2026-07-25 00:29:43 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-25 00:29:43 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-25 00:29:43 | ERROR    | cafeanalytics.engine.runner | LiveRunner worker crashed.
+Traceback (most recent call last):
+  File "/home/vision/Desktop/CafeAnalytics/engine/runner.py", line 147, in _run
+    with source as src:
+  File "/home/vision/Desktop/CafeAnalytics/utils/video.py", line 85, in __enter__
+    return self.open()
+           ^^^^^^^^^^^
+  File "/home/vision/Desktop/CafeAnalytics/utils/video.py", line 58, in open
+    raise IOError(f"Unable to open video source: {self.source!r}")
+OSError: Unable to open video source: 0
+2026-07-25 00:31:04 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (0 frames read).
+2026-07-25 00:31:04 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260725_002943).
+2026-07-25 00:31:04 | WARNING  | cafeanalytics.database.manager | Cleared analytics data: {'visits': 0, 'track_events': 0, 'analytics_snapshots': 29, 'alerts': 0, 'daily_summaries': 0}
+2026-07-25 00:31:04 | INFO     | cafeanalytics.dashboard.state | Owner reset: cleared {'visits': 0, 'track_events': 0, 'analytics_snapshots': 29, 'alerts': 0, 'daily_summaries': 0}
+2026-07-25 00:37:31 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-25 00:37:31 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-25 00:39:59 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-25 00:39:59 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-25 00:40:24 | WARNING  | cafeanalytics.database.manager | All database tables dropped.
+2026-07-25 00:40:24 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-25 00:40:42 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-25 00:40:42 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-25 00:40:43 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-25 00:40:44 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.20, lost_buffer=30, min_consecutive=3).
+2026-07-25 00:40:44 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-25 00:40:44 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-25 00:40:44 | INFO     | cafeanalytics.analytics.table | Loaded 0 table(s).
+2026-07-25 00:40:44 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-25 00:40:44 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260725_004035).
+2026-07-25 00:40:44 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-25 00:40:44 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-25 00:40:45 | INFO     | cafeanalytics.utils.video | Opened video source 0 (640x480 @ 30.0 fps, frames=-1)
+2026-07-25 00:40:48 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (8 frames read).
+2026-07-25 00:40:48 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260725_004035).
+2026-07-25 00:40:52 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260725_004035).
+2026-07-25 00:40:52 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-25 00:40:52 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-25 00:40:52 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-25 00:40:52 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.20, lost_buffer=30, min_consecutive=3).
+2026-07-25 00:40:52 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-25 00:40:52 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-25 00:40:52 | INFO     | cafeanalytics.analytics.table | Loaded 0 table(s).
+2026-07-25 00:40:52 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-25 00:40:52 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260725_004052).
+2026-07-25 00:40:52 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source=0).
+2026-07-25 00:40:52 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: Webcam 0
+2026-07-25 00:40:53 | INFO     | cafeanalytics.utils.video | Opened video source 0 (640x480 @ 30.0 fps, frames=-1)
+2026-07-25 00:41:43 | INFO     | cafeanalytics.engine.runner | LiveRunner stopped (16 frames read).
+2026-07-25 00:41:43 | INFO     | cafeanalytics.analytics.customer | Finalised 1 open customer visit(s).
+2026-07-25 00:41:43 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260725_004052).
+2026-07-25 00:42:13 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator finalised (session=session_20260725_004052).
+2026-07-25 00:42:14 | WARNING  | cafeanalytics.database.manager | All database tables dropped.
+2026-07-25 00:42:14 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-25 00:45:22 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-25 00:45:22 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-25 00:51:55 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-25 00:51:55 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-25 00:53:22 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-25 00:53:22 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-25 13:44:38 | INFO     | cafeanalytics.database.manager | Database engine created (sqlite:////home/vision/Desktop/CafeAnalytics/database/cafe_analytics.db)
+2026-07-25 13:44:38 | INFO     | cafeanalytics.database.manager | Database schema ensured (8 tables).
+2026-07-25 13:44:59 | INFO     | cafeanalytics.detection.detector | Using local weights: /home/vision/Desktop/CafeAnalytics/models/yolo26n.pt
+2026-07-25 13:44:59 | INFO     | cafeanalytics.detection.detector | Loading YOLO model '/home/vision/Desktop/CafeAnalytics/models/yolo26n.pt' on device=cpu ...
+2026-07-25 13:44:59 | INFO     | cafeanalytics.detection.detector | Model loaded (80 classes).
+2026-07-25 13:45:01 | INFO     | cafeanalytics.tracking.tracker | Tracker initialised (backend=bytetrack, activation=0.25, lost_buffer=30, min_consecutive=3).
+2026-07-25 13:45:01 | INFO     | cafeanalytics.engine.engine | DetectionEngine ready (device=cpu).
+2026-07-25 13:45:01 | INFO     | cafeanalytics.analytics.staff | Loaded 0 staff zone(s).
+2026-07-25 13:45:01 | INFO     | cafeanalytics.analytics.table | Loaded 0 table(s).
+2026-07-25 13:45:01 | INFO     | cafeanalytics.analytics.queue | Loaded 0 queue zone(s).
+2026-07-25 13:45:01 | INFO     | cafeanalytics.pipeline.orchestrator | Orchestrator reset (session=session_20260725_134455).
+2026-07-25 13:45:01 | INFO     | cafeanalytics.engine.runner | LiveRunner started (source='/home/vision/Desktop/CafeAnalytics/videos/uploads/20260725_134455_WhatsApp Video 2026-07-24 at 08.16.21.mp4').
+2026-07-25 13:45:01 | INFO     | cafeanalytics.dashboard.state | Dashboard started source: WhatsApp Video 2026-07-24 at 08.16.21.mp4
+2026-07-25 13:45:01 | INFO     | cafeanalytics.utils.video | Opened video source '/home/vision/Desktop/CafeAnalytics/videos/uploads/20260725_134455_WhatsApp Video 2026-07-24 at 08.16.21.mp4' (368x416 @ 12.0 fps, frames=73)
