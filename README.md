@@ -6,40 +6,47 @@ for cafe owners — customer flow, staff activity, table occupancy, queue
 monitoring, foot-traffic heatmaps, intelligent alerts and exportable reports —
 all in **Python**, with a polished **Streamlit** dashboard.
 
-> Built in 14 modular phases. Every phase ships with a runtime verification
-> script; the full suite (`scripts/verify_all.py`) exercises ~200 checks
-> across configuration, detection, tracking, analytics, the dashboard and
-> reporting.
+## Demo
+
+### DAshbored
+
+![ai-caffe-analytics](assets/demo1.png)
+
+![ai-caffe-analytics](assets/demo2.png)
+
+![ai-caffe-analytics](assets/demo3.png)
+
+![ai-caffe-analytics](assets/demo4.png)
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🎯 **Real-time detection** — YOLO26n via Ultralytics, behind a stable,
+-  **Real-time detection** — YOLO26n via Ultralytics, behind a stable,
   swappable interface (change one config line to use a newer model).
-- 🔗 **Multi-object tracking** — ByteTrack (Supervision) with persistent IDs,
+-  **Multi-object tracking** — ByteTrack (Supervision) with persistent IDs,
   entry/exit events, dwell time and trajectories.
-- 🧑‍🤝‍🧑 **Customer analytics** — current/total visitors, entries/exits, occupancy
+-  **Customer analytics** — current/total visitors, entries/exits, occupancy
   min/max/avg, stay-duration distribution, hourly→monthly roll-ups, peak hour.
-- 👔 **Staff analytics** — zone/colour/manual staff classification, attendance,
+-  **Staff analytics** — zone/colour/manual staff classification, attendance,
   working-vs-idle time, staff-to-customer ratio, presence timeline.
-- 🪑 **Table occupancy** — occupied/empty/reserved status by proximity + dwell,
+-  **Table occupancy** — occupied/empty/reserved status by proximity + dwell,
   occupancy %, utilisation over time.
-- 🧾 **Queue monitoring** — per-zone length, wait times, longest waiter, trend,
+-  **Queue monitoring** — per-zone length, wait times, longest waiter, trend,
   and threshold alerts (debounced).
-- 🔥 **Heatmaps & trajectories** — decaying foot-traffic heatmaps (customer /
+-  **Heatmaps & trajectories** — decaying foot-traffic heatmaps (customer /
   staff), movement paths, most/least-visited zones.
-- 🚨 **Intelligent alerts** — overcrowding, long queue, long wait, no staff on
+-  **Intelligent alerts** — overcrowding, long queue, long wait, no staff on
   floor — with cooldown de-duplication.
-- 📊 **Interactive dashboard** — 9 pages, dark SaaS theme, Plotly charts, live
+-  **Interactive dashboard** — 9 pages, dark SaaS theme, Plotly charts, live
   auto-refresh, snapshots and recording.
-- 📄 **Reports** — CSV, styled multi-sheet Excel, and branded PDF with charts.
-- 🗄️ **Persistence** — SQLite via SQLAlchemy (visits, events, snapshots,
+-  **Reports** — CSV, styled multi-sheet Excel, and branded PDF with charts.
+- **Persistence** — SQLite via SQLAlchemy (visits, events, snapshots,
   alerts, zones, reports, settings).
 
 ---
 
-## 🧱 Architecture
+##  Architecture
 
 ```
 Video source → detection → tracking → analytics ─┐
@@ -62,7 +69,7 @@ interface as the engine, so the threaded `LiveRunner` drives it unchanged.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 CafeAnalytics/
@@ -101,7 +108,7 @@ A **GPU is optional** — the platform runs on CPU (slower FPS; see Performance)
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ```bash
 git clone <your-repo-url> CafeAnalytics
@@ -121,7 +128,7 @@ The `yolo26n.pt` weights download automatically on first run and are cached to
 
 ---
 
-## ▶️ Running
+##  Running
 
 ```bash
 source venv/bin/activate
@@ -158,7 +165,7 @@ python scripts/verify_phase6.py
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 All settings live in `config.py` as typed dataclasses, resolved in three layers
 (later overrides earlier):
@@ -188,7 +195,7 @@ database. The orchestrator reloads them live.
 
 ---
 
-## ⚡ Performance
+##  Performance
 
 Target is **20–30 FPS on a mid-range GPU**. On CPU, YOLO26n runs slower
 (~5–8 FPS at 640px). Levers in `config.py`:
@@ -205,7 +212,7 @@ long runs (visits are already persisted before pruning).
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 | Symptom | Fix |
 |--------|-----|
@@ -221,7 +228,7 @@ Logs are written to `logs/cafe_analytics.log` (rotating).
 
 ---
 
-## 🔭 Future Improvements
+##  Future Improvements
 
 - Appearance-based **re-identification** for true repeat-visit detection
   (plain ByteTrack assigns a new ID after a long gap — `repeat_visits` is
@@ -233,9 +240,9 @@ Logs are written to `logs/cafe_analytics.log` (rotating).
 
 ---
 
-## 📜 License
+##  License
 
-Provided as-is for portfolio / evaluation use. Add a license of your choice.
+Provided as-is for portfolio / evaluation use.
 
 *Built with Python + Streamlit. Detection by Ultralytics YOLO26n, tracking by
 Supervision ByteTrack.*
