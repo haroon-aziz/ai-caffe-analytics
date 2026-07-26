@@ -111,7 +111,7 @@ A **GPU is optional** — the platform runs on CPU (slower FPS; see Performance)
 ##  Installation
 
 ```bash
-git clone <your-repo-url> CafeAnalytics
+git clone https://github.com/haroon-aziz/ai-caffe-analytics.git
 cd CafeAnalytics
 
 python -m venv venv
@@ -141,15 +141,11 @@ printed URL (forward the port, e.g. `ssh -L 8501:localhost:8501 …`).
 
 ### Verify the install
 
-```bash
-python scripts/verify_all.py        # runs the whole test suite (~200 checks)
-# or a single phase:
-python scripts/verify_phase6.py
-```
 
----
 
-## 🖥️ Dashboard Overview
+
+
+##  Dashboard Overview
 
 | Page | What it shows |
 |------|----------------|
